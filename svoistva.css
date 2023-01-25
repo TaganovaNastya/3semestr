@@ -12,9 +12,11 @@ body{
 }
 
 .wrapper {
-    max-width: 1613px;
+    max-width: 1443px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 h1{
     margin: 0em;
@@ -38,23 +40,20 @@ h2{
 font-size: 3rem;
 line-height: 1.4;
 color: #FFFFFF;
-margin-left: 2.1rem;
-margin-right: 1.4rem;
+
 margin-bottom: 0.5rem;
 }
 .sec1{
     background: #2D2D2D;
     padding-top: 3.2rem;
     padding-bottom: 3.9rem;
-    height: 881px;
 
 }
 p{
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.2;
-    margin-left: 2.1rem;
-    margin-right: 5.1rem;
+    
     color: #FFFFFF;
 }
 .fuel{
@@ -92,7 +91,79 @@ p{
     align-items: center;
     gap:2rem;
 }
+a{
+    text-decoration: none;
+    font-weight: 400;
+font-size: 1.6rem;
+line-height: 1.4;
+color: #FFFFFF;
+}
+.sil{
+    display: none;
+}
+@media(min-width: 1024px){
+.menu{
+    display: none;
+}
+a{
+    text-decoration: none;
+    font-weight: 400;
+font-size: 1.6rem;
+line-height: 1.4;
+color: #FFFFFF;
+
+}
+.sil{
+    display: flex;
+    align-items: center;
+    gap: 2.6rem
+}
+h2{
+    margin-top: 24.8rem;
+    width: 850px;
+    margin-bottom: 1.5rem;
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 1.4;
+}
+.fuel{
+    
+
+}
+/* .fuel{
+    width: 810.89px;
+height: 842.19px;
+} */
+
+}
+@media(min-width: 1440px){
+    .fuel{
+        width: 600.89px;
+    height: 650px;
+    top:-400px;
+    left: 290px;
+    }
+    .fon{
+        height: 0em;
+    }
+    p{
+    margin-bottom: 3rem;
+}
+.plash{
+    flex-direction: row
+}
+.comm{
+    width: 222px;
+}
+}
 
 
-
-
+@media(min-width: 1535px){
+    .fuel{
+        width: 810.89px;
+    height: 842.19px;
+    top:-400px;
+    left: 140px;
+    }
+}
