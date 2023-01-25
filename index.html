@@ -45,6 +45,35 @@
             </div>
         </div>
         </section>
+        <section class="formreg">
+                <form  name="contact" method="POST" data-netlify="true">
+                    <fieldset>
+                        <legend>Мероприятие</legend>
+                        <label class="lab3">Название
+                        <input type="text" name="name" placeholder="Балет Лебединое озеро" required></label>
+                        <label>Дата
+                            <input type="date" name="date" required>
+                        </label>
+                        <fieldset>
+                            <legend>Оплата</legend>
+                            <div class="lab3">
+                        <label>
+                            <input class="radio" type="radio" name="nal" value="n" required> "Наличные"
+                            </label>
+                            <label>
+                            <input class="radio" type="radio" name="banc" value="b" required> "Банковская карта"</label>
+                        </label></div></fieldset>
+                        <div class="pen">
+                            <div class="scal">
+                            <button class="but4" type="submit">Send 
+                            <img class="sendof" src="png/checklist_rtl_FILL0_wght400_GRAD0_opsz48.svg" alt="send" ></button>
+                            </div>
+                            <div>
+                            <button class="but4" type="reset">Remove
+                                <img class="sendof" src="png/replay_FILL0_wght400_GRAD0_opsz48.svg" alt="Remove"></button>
+                            </div></div>
+            </form>
+        </section>
     </main>
 </body>
 </html>

@@ -46,7 +46,7 @@ margin-bottom: 0.5rem;
 .sec1{
     background: #2D2D2D;
     padding-top: 3.2rem;
-    padding-bottom: 3.9rem;
+    
 
 }
 p{
@@ -100,6 +100,31 @@ color: #FFFFFF;
 }
 .sil{
     display: none;
+}
+label{
+    font-weight: 400;
+font-size: 1.6rem;
+line-height: 1.2;
+color: #FFFFFF;
+}
+legend{
+    font-size: 1.6rem;
+line-height: 1.2;
+color: #FFFFFF;
+}
+form{
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lab3{
+    display: flex;
+    flex-direction: column
+}
+.formreg{
+    padding-top: 3rem;
+    background: #2D2D2D;
+    padding-bottom: 3rem;
 }
 @media(min-width: 1024px){
 .menu{
@@ -156,6 +181,9 @@ height: 842.19px;
 .comm{
     width: 222px;
 }
+.sec1{
+    height: 840px;
+}
 }
 
 
@@ -166,4 +194,9 @@ height: 842.19px;
     top:-400px;
     left: 140px;
     }
+    .sec1{
+        height: 1374px;
+    }
 }
+
+
