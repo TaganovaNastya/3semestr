@@ -1,3 +1,98 @@
 :root{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-size: 62.5%;
+}
+body{
+    margin: 0em;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    max-width: 1613px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1{
+    margin: 0em;
+}
+.head{
+    display: flex;
+    padding-top: 0.8rem;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
     
 }
+hr{
+    border: 1px solid #575555;
+    max-width: 1920px;
+}
+.back{
+    background: #2D2D2D;
+}
+h2{
+    font-weight: 900;
+font-size: 3rem;
+line-height: 1.4;
+color: #FFFFFF;
+margin-left: 2.1rem;
+margin-right: 1.4rem;
+margin-bottom: 0.5rem;
+}
+.sec1{
+    background: #2D2D2D;
+    padding-top: 3.2rem;
+    padding-bottom: 3.9rem;
+    height: 881px;
+
+}
+p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    margin-left: 2.1rem;
+    margin-right: 5.1rem;
+    color: #FFFFFF;
+}
+.fuel{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 333px;
+    height: 346px;
+    top:-38px
+}
+.fon{
+    background: #2D2D2D;
+    padding-left: 2.1rem;
+    padding-right: 1.9rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    position: relative;
+    height: 340px;
+}
+.comm{
+    line-height: 1.4;
+    margin: 0em;
+
+}
+.plash{
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+    
+
+}
+.card{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+}
+
+
+
+
